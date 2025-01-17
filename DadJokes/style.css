@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    background-color: aliceblue;
+    width:50%;
+    height:20%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:200px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    padding:10px
+}
+
+.pp{
+    margin-bottom: 20px;
+}
+
+.bttn{
+    padding:10px;
+    background-color: rgb(0, 183, 255);
+    color:beige;
+    border-radius: 10px;
+    border:none
+}
+
+#jokepara{
+    margin: 20px;
+}
