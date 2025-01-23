@@ -11,7 +11,7 @@ async function get_joke(){
 let data= await fetch("https://official-joke-api.appspot.com/random_joke") 
 let joke= await data.json()
 let jokes=joke.setup+joke.punchline
-console.log(jokes )
+console.log(jokes)
 jokepara.innerHTML=jokes;
 }
 

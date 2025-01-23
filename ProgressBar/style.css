@@ -3,15 +3,11 @@
     --line-border-empty: #d3a7a799;
 }
 
-
-
-
 *{
     box-sizing: border-box;
     /* margin: 0px;
     padding:0px; */
 }
-
 body{
     display:flex;
     align-items: center;
@@ -47,7 +43,6 @@ body{
     width:100%;
     z-index:-1
 }
-
 .progress{
     
     position:absolute;
