@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    padding:10px;
+    
+}
+
+.testimonial-container{
+    background-color: rgb(63, 63, 160);
+    border-radius: 20px;
+    padding:50px 80px;
+    color:white;
+    max-width: 768px;
+    position:relative;
+    margin:20px auto;
+
+}
+.user{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+
+.user .user-image{
+    
+    
+    padding-right: 20px;
+    border-radius: 50%;
+    width:50px;
+
+    object-fit:cover ;
+    
+}
+
+.progress-bar{
+    background-color: white;
+    height:4px;
+    margin-bottom: 30px;
+    width:100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+}
+
+@keyframes grow{
+    0%{
+        transform:scaleX(0);
+    }
+}
