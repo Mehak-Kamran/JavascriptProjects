@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.fill{
+    background-image: url("https://images.unsplash.com/photo-1724689545475-67ff5bc78fac?q=80&w=1503&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height:145px;
+    width:145px;
+}
+
+.empty{
+    height:150px;
+    width:150px;
+    margin:10px;
+    border:solid 3px black;
+    background-color: white;
+}
