@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.kinetic {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.kinetic::after,
+.kinetic::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    animation: rotate 1.2s linear infinite;
+}
+
+.kinetic::before {
+    border-top-color: #ff3d00;
+    transform: rotate(0deg);
+}
+
+.kinetic::after {
+    border-bottom-color: #00d4ff;
+    transform: rotate(180deg);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
